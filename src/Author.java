@@ -2,13 +2,13 @@ public class Author {
    private String name;
    private String surname;
 
-   public Author(String name, String surname)              //Constructor
+   public Author(String name, String surname)
    {this.name = name;
    this.surname = surname;}
 
-   public String getAuthorName()                           //Getter
+   public String getAuthorName()
    {return name;}
 
-   public String getSurname()
-   {return surname;}                                       //Getter
+   public String getAuthorSurname()
+   {return surname;}
 }

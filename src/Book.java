@@ -1,13 +1,13 @@
 public class Book {
    private String bookName;
-   private Author authorName;
-   private short pagesAmount;
-   private short publishingYear;
+   private Author nameOfAuthor;
+   private int pagesAmount;
+   private int publishingYear;
    private String publisherName;
 
-   public Book(String bookName, Author authorName, short pagesAmount, short publishingYear, String publisherName)        //Constructor
+   public Book(String bookName, Author nameOfAuthor, int pagesAmount, int publishingYear, String publisherName)        //Constructor
   {this.bookName = bookName;
-   this.authorName = authorName;
+   this.nameOfAuthor = nameOfAuthor;
    this.pagesAmount = pagesAmount;
    this.publishingYear = publishingYear;
    this.publisherName = publisherName;}
@@ -15,18 +15,18 @@ public class Book {
     public String getBookName()
     {return bookName;}
 
-    public Author getAuthorName()
-    {return authorName;}
+    public Author getNameOfAuthor()
+    {return nameOfAuthor;}
 
-    public short getPagesAmount() {
+    public int getPagesAmount() {
         return pagesAmount;}
 
-    public short getPublishingYear() {
+    public int getPublishingYear() {
         return publishingYear;}
 
     public String getPublisherName() {
         return publisherName;}
 
-    public void setPublisherName(String publisherName) {
-        this.publisherName = publisherName;}
+    public void setPublishingYear(int publishingYear) {
+        this.publishingYear = publishingYear;}
 }
