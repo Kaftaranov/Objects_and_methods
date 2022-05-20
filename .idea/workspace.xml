@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b053036-b255-41ac-b3ff-f88fb93828a7" name="Changes" comment="Part 2. Commit with override methods.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
-    </list>
+    <list default="true" id="5b053036-b255-41ac-b3ff-f88fb93828a7" name="Changes" comment="Part 2. Commit with corrected override methods by mentor's example." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +65,7 @@
       <workItem from="1652761259341" duration="4036000" />
       <workItem from="1653003885782" duration="305000" />
       <workItem from="1653044439748" duration="980000" />
-      <workItem from="1653058798033" duration="1583000" />
+      <workItem from="1653058798033" duration="1820000" />
     </task>
     <task id="LOCAL-00001" summary="Classes Book and Author with their getters created.">
       <created>1652690147426</created>
@@ -99,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653045407125</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Part 2. Commit with corrected override methods by mentor's example.">
+      <created>1653060559693</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653060559693</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +124,7 @@
     <MESSAGE value="Final release." />
     <MESSAGE value="Part 2. First commit." />
     <MESSAGE value="Part 2. Commit with override methods." />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 2. Commit with override methods." />
+    <MESSAGE value="Part 2. Commit with corrected override methods by mentor's example." />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 2. Commit with corrected override methods by mentor's example." />
   </component>
 </project>
