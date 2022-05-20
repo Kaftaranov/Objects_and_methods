@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Book {
    private final String bookName;
    private final Author nameOfAuthor;
@@ -32,16 +34,18 @@ public class Book {
 
     @Override
     public String toString() {
-        return super.toString();
+        return bookName+" "+nameOfAuthor+" "+pagesAmount+" "+publishingYear+" "+publisherName;
     }
-
     @Override
     public boolean equals(Object obj) {
-        return super.equals(obj);
+       if (this == obj || getClass() != obj.getClass()) return false;
+       Book book = (Book)obj;
+       return bookName.equals(book.bookName)&&nameOfAuthor.equals(book.nameOfAuthor)
+               &&pagesAmount==book.getPagesAmount()&&publishingYear==book.publishingYear
+               &&publisherName.equals(book.publisherName);
     }
-
     @Override
     public int hashCode() {
-        return super.hashCode();
+        return Objects.hash(bookName,nameOfAuthor, pagesAmount, publishingYear, publisherName);
     }
 }
