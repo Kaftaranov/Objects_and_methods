@@ -1,9 +1,9 @@
 public class Book {
-   private String bookName;
-   private Author nameOfAuthor;
-   private int pagesAmount;
+   private final String bookName;
+   private final Author nameOfAuthor;
+   private final int pagesAmount;
    private int publishingYear;
-   private String publisherName;
+   private final String publisherName;
 
    public Book(String bookName, Author nameOfAuthor, int pagesAmount, int publishingYear, String publisherName)        //Constructor
   {this.bookName = bookName;
@@ -29,4 +29,19 @@ public class Book {
 
     public void setPublishingYear(int publishingYear) {
         this.publishingYear = publishingYear;}
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }
